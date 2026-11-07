@@ -1,0 +1,14 @@
+{
+  "name": "canopy-financial",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build && node scripts/server.mjs --preview",
+    "build": "tsc -p tsconfig.app.json && node scripts/build.mjs",
+    "preview": "node scripts/server.mjs --preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
